@@ -26,6 +26,7 @@ public class Week6 : MonoBehaviour
     {
         Vector3 worldOrigin = new Vector3(0, 0, 0);
         Vector3 randomTreeSpawnPosition = new Vector3(Random.Range(-10,11), 1, Random.Range(-10,11));
+        Vector3 pyramid = new Vector3(x+10, height+.5f, z);
     }
     void CreateGround()
     {
